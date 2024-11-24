@@ -57,7 +57,7 @@ if (signUpBtn) {
                             })
                         })
                         .then(() => {
-                            window.location.href = '/login.html'
+                            window.location.href = './login.html'
                         })
                 })
         }
@@ -89,7 +89,7 @@ if (loginBtn) {
 
                     if (userFound) {
                         console.log(`Successfully Loged In`)
-                        window.location.href = '/dashboard.html'
+                        window.location.href = './dashboard.html'
                     } else if (emailExists) {
                         console.log(`Email Or Password is Wrong`)
                     } else {
